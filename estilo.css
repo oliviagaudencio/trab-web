@@ -1,0 +1,105 @@
+* {
+    border: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+header{
+    height: 11rem;
+}
+main{
+    min-height: calc(100vh - 15rem)
+}
+
+footer{
+
+    height: 4rem;
+}
+
+.banner{
+    background-image: url(./banner.jpeg);
+    height: 7.5rem;
+}
+
+.banner_text{
+    text-shadow: 1px 1px black;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.links_header{
+    background-color: rgb(78, 158, 224);
+    padding-top: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    padding-top: 0.2rem;
+    scale: 2;   
+    color: white;
+    align-items: center;
+}
+
+.footer_block{
+    height: 4rem;
+    background-color: rgb(78, 158, 224);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: white;
+}
+
+.Pergunta{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+
+.tela, #r1, #r2, #r3, #r4{
+    height: 100vh;
+}
+
+#r1 a, #r2 a, #r3 a, #r4 a{
+    display: block;
+}
+
+.Voltar{
+    text-decoration: none;
+    color: black;
+}
+
+.title_curso{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+}
+
+table, tr, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+form{
+    height: 90%;
+}
+.button{
+    background-color: rgb(78, 158, 224);
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+}

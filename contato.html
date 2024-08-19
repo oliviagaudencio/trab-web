@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <span>
+                <h1 class="banner_text">CEFET-MG - Campus Varginha - Curso Técnico</h1>
+            </span>
+        </div>
+        <div class ="links_header">
+            <a class="link" href="index.html">Início</a>
+            <a class="link" href="curso.html">Curso</a>
+            <a class="link" href="faq.html">FAQ</a>
+            <a class="link" href="contato.html">Contato</a>
+        </div>
+    </header>
+    <main>
+        <form action="" method="post">
+            <fieldset class="fieldset_formulario">
+                <legend>Contato</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <input type="radio" name="Sexo" id="Masculino" value="Masculino">
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" name="Sexo" id="Feminino" value="Feminino">
+                    <label for="Feminino">Feminino</label>
+                </div>
+                <div>
+                    <label for="estado">Estado/Cidade:</label>
+                    <select name="estado" id="estado">
+                        <option value="1">MG</option>
+                        <option value="2">RJ</option>
+                        <option value="3">SP</option>
+                    </select>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+                <div>
+                    <label for="file">Selecione um arquivo:</label>
+                    <input type="file" name="Arquivo">
+                </div>
+                <div>
+                    <label for="obs">Sugestao </label>
+                </div>
+                <div>
+                    <textarea name="obs" id="obs" cols="30" rows="4"></textarea>
+                </div>
+                <div>
+                    <button class="button" type="submit">Enviar</button>
+                    <button class="button" type="reset">Limpar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="footer_block">
+            <h1>© copyleft</h1>
+        </div>
+    </footer>
+</body>
+</html>
